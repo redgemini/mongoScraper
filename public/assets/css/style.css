@@ -1,5 +1,5 @@
 body {
-   /* background-image: url("news.jpg"); */
+    background-image: url("news.jpeg");
     background-size: 100%;
     font-family: sans-serif;
     color: lightblue;
@@ -14,9 +14,13 @@ main {
     margin-left: auto;
     margin-right: auto;
 }
-
+.card-body {
+    color: lightblue;
+    width:100%
+}
 a {
     color: gray;
+    text-align: center;
 }
 h1 h2 h3{
     color: lightblue;
@@ -30,21 +34,20 @@ h1 h2 h3{
 .navbar-brand {
     text-align: center;
     font-family: sans-serif;
-    font-size: 250%;
+    font-size: 500%;
     color: black;
 }
-
- #saved-link {
-    border: 1px solid: gray;
-    background-color: gray;
-    color: white;
-    border-radius: 2px;
-    font-size: .875rem;
-    margin-right: 1%;
+.px-0{
+    margin: 19%;
+    width:1%;
+    margin-top:1%;
+    padding: 1 rem;
+    text-align: center;
+    margin-top: 5%;
 }
-
+ 
 a:hover {
-    background-color: lightgoldenrodyellow;
+    background-color: lightgray;
 }
 
 #btn-scraper {
@@ -94,5 +97,5 @@ a:hover {
  }
 
 .card-body {
-    width: 70%;
+    width: 50%;
 }

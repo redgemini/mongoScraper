@@ -8,7 +8,7 @@ module.exports = function (app) {
     app.get("/api/scrape", function (req, res) {
 
         // Make a request call to grab the HTML body from the site of your choice
-        request("http://www.usatoday.com", function (error, response, html) {
+        request("https://www.usatoday.com", function (error, response, html) {
 
             // Load the HTML into cheerio and save it to a variable
             // '$' becomes a shorthand for cheerio's selector commands, much like jQuery's '$'
@@ -18,7 +18,7 @@ module.exports = function (app) {
 
 
             // Select each element in the HTML body from which you want information.
-            $("article h1").each(function (i, element) {
+            $h5.each(function (i, element) {
 
 
                 var saved = false;
