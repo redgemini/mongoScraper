@@ -1,7 +1,7 @@
 body {
-    background-image: url("news.jpg");
+   /* background-image: url("news.jpg"); */
     background-size: 100%;
-    font-family: 'Jua', sans-serif;
+    font-family: sans-serif;
     color: lightblue;
 }
 
@@ -16,44 +16,40 @@ main {
 }
 
 a {
-    color: teal;
+    color: gray;
 }
 h1 h2 h3{
     color: lightblue;
 }
 
 .btn {
-    background-color: teal;
-    border: 1px solid teal;
+    background-color: gray;
+    border: 1px solid gray;
 }
 
 .navbar-brand {
     text-align: center;
-    font-family: 'Jua', sans-serif;
+    font-family: sans-serif;
     font-size: 250%;
-    color: lightgoldenrodyellow;
+    color: black;
 }
 
-/* #saved-link {
-    border: 1px solid: teal;
-    background-color: teal;
+ #saved-link {
+    border: 1px solid: gray;
+    background-color: gray;
     color: white;
     border-radius: 2px;
     font-size: .875rem;
     margin-right: 1%;
-} */
+}
 
 a:hover {
     background-color: lightgoldenrodyellow;
 }
 
 #btn-scraper {
-    border: 1px solid teal;
+    border: 1px solid gray;
 }
-body {
-     background-image: url("news.jpg");
-     background-size: 100%;
- }
 
  h1,
  h2,
@@ -97,3 +93,6 @@ body {
      font-size: 18px;
  }
 
+.card-body {
+    width: 70%;
+}
