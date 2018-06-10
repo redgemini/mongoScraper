@@ -39,10 +39,10 @@ h1 h2 h3{
 }
 .px-0{
     margin: 19%;
-    width:1%;
+    /* width:1%; */
     margin-top:1%;
     padding: 1 rem;
-    text-align: center;
+    text-align: left;
     margin-top: 5%;
 }
  
@@ -96,6 +96,3 @@ a:hover {
      font-size: 18px;
  }
 
-.card-body {
-    width: 50%;
-}
