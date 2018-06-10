@@ -1,0 +1,2 @@
+# mongoScraper
+ mongoScraper This app is hosted by Heroku at www.heroku.com.  The app utilizes Mongoose and Cheerio to scrape and display local Austin entertainment and lifestyle news from https://www.austin360.com/.  Viewer can save articles of interest. Once saved, the user can save comments to the article or delete the article when it is no longer required.  To run the app, Node is required along with a npm install to load all relevant packages.  Technology used to build the application include Mongoose, Cheerio, Handlebars, and Node Express.
